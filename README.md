@@ -29,13 +29,12 @@ Install the following software:
   - **Firefox**: https://addons.mozilla.org/en-US/firefox/addon/grafana-k6-browser-recorder/
 
 - **GIT** - https://git-scm.com/download/win  
-**NOTE:** During installation, in the "Adjusting your PATH environment" window, select the option: "Use Git and optional Unix tools from the Windows Command Prompt" (last option).
 
 ### Account registration:
 
 - **Grafana Cloud k6** - create a free account on k6 cloud: https://grafana.com/products/cloud/k6/
 
-- **Reserved** - create an account on Reserved - https://www.reserved.com/gb/en/ (basic registration is sufficient)
+- **Ecommerce Store** - create an account on Reserved - https://ecommercestore.fly.dev/ (basic registration is sufficient)
 
 ### Environment verification
 - **k6**
@@ -48,7 +47,7 @@ Install the following software:
 	-   `docker pull influxdb:1.8`
    
  - **Clone the repository:**
-   - Fork the repository: https://github.com/tklepacki/k6-workshop.git to your personal GitHub account. If you don’t have a GitHub account, create one first.
+   - Fork the repository: https://github.com/tklepacki/seetest-k6.git to your personal GitHub account. If you don’t have a GitHub account, create one first.
    - Clone the forked repository (from your personal account)
    - Navigate to the repository folder and make sure the project has been downloaded.
 
