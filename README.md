@@ -1,16 +1,16 @@
-## Wprowadzenie
+## Introduction
 
-Drogi Uczestniku,
+Dear Participant,
 
-Cieszę się, że zdecydowałeś się wziąć udział w warsztatach :)
+I’m glad you decided to take part in the workshop :)
 
-Aby zweryfikować środowisko programistyczne, upewnij się, że spełniasz poniższe wymagania dotyczące narzędzi (_Wymagania_).
+To verify your development environment, please make sure you meet the following tool requirements (_Requirements_).
 
-## Wymagania
-### Narzędzia
-Na warsztaty przybądź zaopatrzony w laptopa – najlepiej z systemem Windows. Upewnij się, iż laptop nie jest obwarowany, żadnym blokadami, typu brak uprawnień do instalacji narzędzi, ograniczenia dostępu do sieci (VPN) itp. 
+## Requirements
+### Tools
+Please bring a laptop to the workshop – preferably with Windows installed. Make sure your laptop is not restricted in any way, such as lacking permissions to install tools or having network access limitations (VPN, etc.).
 
-Zainstaluj następujące oprogramowanie:
+Install the following software:
 
 - **Visual Studio Code** - https://code.visualstudio.com/download
 
@@ -21,40 +21,39 @@ Zainstaluj następujące oprogramowanie:
   - https://docs.docker.com/docker-for-windows/install/ - Windows
   - https://docs.docker.com/docker-for-mac/install/ - Mac
 
-- Przeglądarkę **Chrome** lub **Firefox** w najnowszej wersji
+- The latest version of **Chrome** or **Firefox** browser
 
-
-- Wtyczkę **Grafana k6 Browser Recorder**:
+- **Grafana k6 Browser Recorder** extension:
   - **Chrome**: https://chromewebstore.google.com/detail/grafana-k6-browser-record/fbanjfonbcedhifbgikmjelkkckhhidl
-  lub
-  - **FireFox**: https://addons.mozilla.org/en-US/firefox/addon/grafana-k6-browser-recorder/
+  or
+  - **Firefox**: https://addons.mozilla.org/en-US/firefox/addon/grafana-k6-browser-recorder/
 
-- **GIT** - https://git-scm.com/download/win
-UWAGA: Podczas instalacji, w oknie "Adjusting your PATH environment", wybierz opcję: "Use Git and optional Unix tools from the Windows Command Prompt" (ostatni przycisk).
+- **GIT** - https://git-scm.com/download/win  
+**NOTE:** During installation, in the "Adjusting your PATH environment" window, select the option: "Use Git and optional Unix tools from the Windows Command Prompt" (last option).
 
-### Rejestracja kont:
+### Account registration:
 
-- **Grafana Cloud k6** - utwórz darmowe konto na k6 cloud: https://grafana.com/products/cloud/k6/
+- **Grafana Cloud k6** - create a free account on k6 cloud: https://grafana.com/products/cloud/k6/
 
-- **Reserved** - utwórz konto na Reserved - https://www.reserved.com/gb/en/ (wystarczy podstawowa rejestracja)
+- **Reserved** - create an account on Reserved - https://www.reserved.com/gb/en/ (basic registration is sufficient)
 
-### Weryfikacja środowiska
+### Environment verification
 - **k6**
-	- Wpisz w konsoli: k6 i upewnij się, że wyświetlają się informacje o dostępnych komendach k6.
+	- Type in the console: `k6` and make sure information about available k6 commands is displayed.
 - **Docker**
-	- Wpisz w konsoli: `docker -v` i upewnij się, że wyświetlana jest informacja o zainstalowanej wersji Dockera.
+	- Type in the console: `docker -v` and make sure the installed Docker version is displayed.
 	
-- **Pobierz obrazy Dockera za pomocą następujących komend:**
+- **Download Docker images using the following commands:**
 	-   `docker pull grafana/grafana`
 	-   `docker pull influxdb:1.8`
    
- - **Sklonuj repozytorium:**
-   - Utwórz fork repozytorium: https://github.com/tklepacki/k6-workshop.git na swoim prywatnym koncie GITHub. Jeśli nie masz konta na GitHub, utwórz go wcześniej.
-   - Sklonuj sforkowane repozytorium (ze swojego prywatnego konta)
-   - Wejdź do folderu z repozytorium i upewnij się, że projekt został pobrany.
+ - **Clone the repository:**
+   - Fork the repository: https://github.com/tklepacki/k6-workshop.git to your personal GitHub account. If you don’t have a GitHub account, create one first.
+   - Clone the forked repository (from your personal account)
+   - Navigate to the repository folder and make sure the project has been downloaded.
 
-- **Otwórz Visual Studio Code -> Plik -> Otwórz folder (wybierz sklonowany folder projektu).**
-  - Upewnij się, że wszystkie pliki projektu są widoczne w eksploratorze plików VSC.
+- **Open Visual Studio Code -> File -> Open Folder (select the cloned project folder).**
+  - Make sure all project files are visible in the VSC file explorer.
 
-## W razie problemów
-W razie jakichkolwiek pytań lub problemów z wykonaniem instrukcji pisz na mój adres e-mail: *t.klepacki@wp.pl*
+## In case of problems
+If you have any questions or issues with following these instructions, email me at: *t.klepacki@wp.pl*
