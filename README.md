@@ -14,12 +14,12 @@ Install the following software:
 
 - **Visual Studio Code** - https://code.visualstudio.com/download
 
-- **k6** - https://dl.k6.io/msi/k6-latest-amd64.msi
+- **k6** - https://grafana.com/docs/k6/latest/set-up/install-k6
   
 - **Docker**:
-  - https://docs.docker.com/install/linux/docker-ce/ubuntu/ - Linux
-  - https://docs.docker.com/docker-for-windows/install/ - Windows
-  - https://docs.docker.com/docker-for-mac/install/ - Mac
+  - https://docs.docker.com/desktop/setup/install/linux/ - Linux
+  - https://docs.docker.com/desktop/setup/install/windows-install/ - Windows
+  - https://docs.docker.com/desktop/setup/install/mac-install/ - Mac
 
 - The latest version of **Chrome** or **Firefox** browser
 
@@ -34,7 +34,7 @@ Install the following software:
 
 - **Grafana Cloud k6** - create a free account on k6 cloud: https://grafana.com/products/cloud/k6/
 
-- **Ecommerce Store** - create an account on Reserved - https://ecommercestore.fly.dev/ (basic registration is sufficient)
+- **Ecommerce Store** - create an account on Amazona - https://ecommercestore.fly.dev/
 
 ### Environment verification
 - **k6**
