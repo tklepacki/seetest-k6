@@ -6,6 +6,11 @@ I’m glad you decided to take part in the workshop :)
 
 To verify your development environment, please make sure you meet the following tool requirements (_Requirements_).
 
+## Useful links
+
+- Notes: https://docs.google.com/document/d/14ju_I5wfvodR6ljU3RE3Gx40nF39uGQg7WFy7v4TJAo/edit?usp=sharing
+- Tasks and Solutions: https://drive.google.com/drive/folders/1IEnJNwOnp9IcQoOmOQ9LimYuICYr9qoG?usp=sharing
+
 ## Requirements
 ### Tools
 Please bring a laptop to the workshop – preferably with Windows installed. Make sure your laptop is not restricted in any way, such as lacking permissions to install tools or having network access limitations (VPN, etc.).
